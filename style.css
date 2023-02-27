@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+
+ 
+    line-height:1.7;
+   
+}
+
+/* *********************************header********************************************************* */
+
+.hader{
+    top: 0;
+    position: fixed;
+    z-index: 1;
+   width: 100%;
+}
+
+.top
+{
+    display: flex;
+   color: white;
+    justify-content: center;
+    background-color: rgb(16, 16, 78);
+    align-items: center;
+    height: 50px;
+    width:100%
+    padding: 4px;
+}
+.top .firstcol{
+margin-right: 80px;
+margin-left: -10px;
+
+}
+.top .secondcol{
+margin-right: 90px;
+
+}
+
+.top.thirdcol{
+   
+    margin-top: 20px;
+    
+}
+
+
+ .top .firstcol p{
+   margin: -24px 0px 0px 20px  ;
+    
+}
+ .top .secondcol p{
+   margin: -24px 0px 0px 30px  ;
+  
+}
+ .top .thirdcol p{
+   margin-top: 15px;
+   
+}
+
+.kalikalogo{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.kalikalogo .logo{
+    margin-left: 180px;
+    margin-right: 600px;
+}
+.kalikalogo .helpinghand{
+    display: flex;
+    margin-top: 15px;
+    margin-left: -3px;
+}
+.kalikalogo .content{
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.kalikalogo .helpinghand .pic{
+    margin-top: 10px;
+}
+.kalikalogo .helpinghand #help{
+    margin: 1px 0px -3px 9px;
+    font-size: small;
+    opacity: 0.7;
+   
+}
+.kalikalogo .helpinghand #contac{
+    margin: 3px 0px 0px 10px;
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.navigationbar{
+    
+
+        background-color: #d8edea;
+        position: fixed !important;
+        width: 100%;
+        z-index: 1;
+        height: 70px;
+        
+    
+}
+.navbar-nav .nav-item #home{
+    margin-left: 170px;
+}
+.navbar-nav .nav-item a{
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: large;
+}
+.navbar-nav .button{
+    margin-left: 190px;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.navbar-nav .button #firstbtn{
+    font-size: medium;
+    background-color: red;
+    width: 55px;
+    height: 31px;
+    border-radius: 5px;
+    color: white;
+
+}
+.navbar-nav .button #secondbtn{
+    font-size: medium;
+    background-color: green;
+    width: 96px;
+    height: 31px;
+    border-radius: 5px;
+    color: white;
+
+}
+.navbar-nav .button #firstbtn:hover{
+background-color: rgb(205, 4, 4);
+}
+.navbar-nav .button #secondbtn:hover{
+background-color: rgb(5, 79, 5);
+}
+
+.nav-item a:hover{
+    color: rgb(255, 221, 0) ;
+    font-weight: 700;
+   
+   
+}
+#home:hover{
+    color: rgb(255, 221, 0) ;
+    font-weight: 700;
+   
+   
+}
+
+
+
+
+
+
+
+/* ***************************************************footer*********************************************/
+.foter{
+    display: flex;
+    position: relative;
+    margin-top: 900px;
+    
+    background-color: rgb(29, 41, 67);
+    color: white;
+    
+}
+
+ .foter .fot{
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+.foter .firstco{
+
+    margin-left: 180px;
+}
+
+.foter .firstco p {
+    margin-top: 20px;
+
+}
+.secondco p{
+    margin-top: 10px;
+    
+}
+.secondco a{
+    color: white;
+    text-decoration: none;
+    line-height: 2.7;
+    
+    
+    
+}
+.socialicon a{
+    display: inline-block;
+  margin: 10px;
+  padding: 4px;
+    background-color: rgb(227, 232, 237);
+    height: 35px ;
+    width: 24px;
+    border-radius: 49px;
+    justify-content: center;
+}
+.socialicon a:hover{
+    background-color: rgb(255, 179, 0);
+    transition: 1s;
+}
+
+.contafirst{
+    display: flex;
+    margin-top: 20px;
+    padding: 4px;
+}
+.contafirst p{
+    margin-left: 9px;
+    position: relative;
+    margin-top: -5px;
+}
+.contasecond{
+    display: flex;
+    padding: 4px;
+}
+.contasecond p{
+    margin-left: 9px;
+    position: relative;
+    margin-top: -5px;
+    
+}
+.contathird{
+    display: flex;
+    padding: 4px;
+}
+.contathird p{
+    margin-left: 9px;
+    position: relative;
+    margin-top: -5px;
+}
+.fa{
+    color: yellow;
+}
+#faq{
+    margin-top: 20px ;
+}
+
+
