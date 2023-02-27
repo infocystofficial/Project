@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 60px;
+    align-items: space-evenly;
+   
+;
+}
+.header1{
+  
+   width: 70%;
+   color: #fff;
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #07294d; 
+    padding: 10px;
+    
+   
+
+}
+.fas{
+    color: orange;
+}
+#imagesection{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:white;
+    align-items: center;
+
+}
+#abc{
+    width:70% ;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+   flex-direction: row;
+   column-gap: 10px;
+   align-items: center;
+}
+#help{
+    display: flex;
+    flex-direction: column;
+}
+#phonenumber{
+    font-size: 18px;
+    color: #07294d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#needhelp{
+    font-size: 13px;
+    color: #8a8a8a;
+    line-height: 18px;
+
+
+}
+
+nav{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 15px;
+   padding-bottom: 15px;
+
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #07294d;
+    text-transform: uppercase;
+    background-color: #dee;
+ 
+}
+#loginsection{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+#login{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.buttonsm{
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+#Admission{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+#navbar nav ul{
+display: flex;
+column-gap: 34px;
+
+}
