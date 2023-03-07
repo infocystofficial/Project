@@ -412,7 +412,7 @@
 /* ***********************************congratulation block******************************** */
 .congratu {
     display: flex;
-    
+
 }
 
 .congrafirst {
@@ -431,11 +431,13 @@
     border-bottom-right-radius: 70px;
     border-top-right-radius: 70px;
 }
+
 .congrasecond {
     margin-left: -40px;
     width: 42%;
 }
-.congrasecond h1{
+
+.congrasecond h1 {
     margin: 30px 40px 20px 0px;
     border-bottom: 2px solid black;
     justify-content: center;
@@ -443,9 +445,10 @@
     font-weight: 700;
     color: #062c68;
 }
-.congrasecond h4{
+
+.congrasecond h4 {
     margin: 10px 40px 30px 0px;
-opacity: 0.7;
+    opacity: 0.7;
     justify-content: center;
     display: grid;
     font-weight: 700;
